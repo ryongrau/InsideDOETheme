@@ -1,0 +1,6 @@
+name = Inside DOE subTheme
+description = This is a sub-theme of theme Bartik, made by Ryon Grau fro the Inside DOE Blog (red, responsive).
+core = 7.x
+base theme = bartik
+
+stylesheets[all][] = css/style.css
