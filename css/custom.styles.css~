@@ -130,19 +130,10 @@ var {
  */
 #header {}
 
-#primary-menu-bar{
-	height:60px;
-	background-image: url("images/menu-bar.png");
-	
-}
-
-
 /*
  * Wraps the sidebars the content column
  */
-#columns {
-	max-width:1200px;
-}
+#columns {}
 
 /*
  * Main content column wrapper

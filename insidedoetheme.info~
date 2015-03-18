@@ -5,7 +5,7 @@
   description = I copied this subtheme to get started -
   core        = 7.x
   base theme  = adaptivetheme
-  release     = 00.01
+  release     = 7.x-3.x
   engine      = phptemplate
   screenshot  = screenshot.png
 
