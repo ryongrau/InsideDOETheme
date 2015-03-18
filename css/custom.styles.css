@@ -36,8 +36,13 @@ html {
 
 
 body {
-  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 87.5%;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  	color: #666666;
+  	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
 }
 
 
@@ -45,9 +50,25 @@ body {
  *   HTML Elements
  * ========================================================================== */
 
-h1 {}
+h1 {
+font-family: 'Segoe UI', Arial, sans-serif;
+	color: #002A61;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 32px;
+}
 
-h2 {}
+h2 {
+font-family: 'Segoe UI', Arial, sans-serif;
+	color: #005295;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 18px;
+}
 
 h3 {}
 
@@ -57,7 +78,15 @@ h5 {}
 
 h6 {}
 
-p {}
+p {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  	color: #666666;
+  	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
 
 b,
 strong {}
@@ -128,7 +157,10 @@ var {
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {}
+#header {
+  margin: 0 auto 2em;
+  max-width: 1000px;
+}
 
 #primary-menu-bar{
 	height:60px;
@@ -141,13 +173,19 @@ var {
  * Wraps the sidebars the content column
  */
 #columns {
-	max-width:1200px;
+	display: block;
+	margin: 0 auto 2em;
+	max-width: 1000px;
 }
 
 /*
  * Main content column wrapper
  */
-#content-column {}
+#content-column {
+	display: block;
+	margin: 0 33% 0 0;
+	width: 64%;
+}
 
 /*
  * Wraps the main-content-header, the content region and feed-icons. Use this
@@ -439,7 +477,11 @@ ul.links li {
 /*
  * First sidebar
  */
-.region-sidebar-first {}
+.region-sidebar-first {
+	  float: right;
+	  margin-right: 3%;
+	  width: 27%;
+}
 
 /*
  * Second sidebar
@@ -649,8 +691,21 @@ ul.sf-menu a:active {
  *   Menus, usually blocks
  * ========================================================================== */
 
+.primary-menu-wrapper{
+	margin: 0 auto;
+	padding: 20px 0;
+	max-width: 1000px;
+} 
+ 
 ul.menu {
   padding-left: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+	color: #97C5EB;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 18px;
 }
 
 ul.menu ul {
@@ -669,13 +724,16 @@ ul.menu li.collapsed,
 ul.menu li.expanded,
 ul.menu li.leaf {}
 
-ul.menu li a {}
+ul.menu li a {color: #ffffff;}
 
 ul.menu li a:link,
 ul.menu li a:visited {}
 
 ul.menu li a:active,
-ul.menu li a.active {}
+ul.menu li a.active {
+	color:#f3c727;
+	font-weight:900;
+}
 
 ul.menu li a:hover,
 ul.menu li a:focus {}
@@ -1191,6 +1249,10 @@ ul.action-links li {}
   padding: 0;
 }
 
+.author-datetime{
+
+}
+
 /*
  * Block for the latest news items in the first category
  */
@@ -1215,6 +1277,8 @@ ul.action-links li {}
  * "Book navigation" block for the current book's table of contents
  */
 #block-book-navigation {}
+
+
 
 /*
  * "Recent comments" block
