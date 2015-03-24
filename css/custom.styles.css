@@ -296,7 +296,8 @@ var {
  * Logo
  */
 #logo {
-  padding: 10px 0;
+  //padding: 10px 0;
+  float:left;
 }
 
 #logo img {
@@ -331,7 +332,13 @@ var {
  * Site slogan (h2)
  */
 #site-slogan {
-  margin: 0;
+  text-shadow: 2px 2px 3px #000000;	
+  display:block;	
+  margin: 0px 10px;
+  width:66%;
+  color: #ffffff;
+  float:right;
+  
 }
 
 
@@ -529,7 +536,7 @@ a:focus {
 
 .nav {
   clear: both;
-  margin: 10px 0;
+  //margin: 10px 0;
 }
 
 .nav ul,

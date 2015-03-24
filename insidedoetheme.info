@@ -2,10 +2,10 @@
 ;----------// Theme Information
 
   name        = Inside DOE Subtheme
-  description = I copied this subtheme to get started -
+  description = This is the 
   core        = 7.x
   base theme  = adaptivetheme
-  release     = 00.01
+  release     = 0.2
   engine      = phptemplate
   screenshot  = screenshot.png
 
@@ -15,7 +15,10 @@
   ; See each stylesheet for extensive documentation and help.
   stylesheets[screen][] = css/custom.base.css
   stylesheets[screen][] = css/custom.styles.css
-
+  ; stylesheets[screen][] = css/random-background.php
+  stylesheets[screen][] = css/set-background.css
+  
+  
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
 
