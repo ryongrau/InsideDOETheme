@@ -51,7 +51,7 @@ body {
  * ========================================================================== */
 
 h1 {
-font-family: 'Segoe UI', Arial, sans-serif;
+//font-family: 'Segoe UI', Arial, sans-serif;
 	color: #002A61;
 	font-size: 32px;
 	font-style: normal;
@@ -61,13 +61,13 @@ font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 h2 {
-font-family: 'Segoe UI', Arial, sans-serif;
+//font-family: 'Segoe UI', Arial, sans-serif;
 	color: #005295;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 18px;
+	line-height: 24px;
 }
 
 h3 {}
@@ -163,7 +163,7 @@ var {
  * Wraps all header elements - branding and .region-header
  */
 #header {
-  margin: 0 auto 2em;
+  margin: 0 auto;
   max-width: 1000px;
 }
 
@@ -332,9 +332,9 @@ var {
  * Site slogan (h2)
  */
 #site-slogan {
-  text-shadow: 2px 2px 3px #000000;	
+  text-shadow: 4px 4px 6px #000000;	
   display:block;	
-  margin: 0px 10px;
+  margin: 10px;
   width:66%;
   color: #ffffff;
   float:right;
@@ -386,7 +386,9 @@ var {
 /*
  * Generic styles for the more link
  */
-.more-link {}
+.more-link {
+
+}
 
 /*
  * Generic styles for links. See the ul.links declaration in node and comment
@@ -399,6 +401,7 @@ ul.links {
 
 ul.links.inline {
   display: block;
+  color:#6CADDF;
 }
 
 ul.links li {
@@ -406,7 +409,18 @@ ul.links li {
   list-style: none;
   padding: 0 10px 0 0;
 }
-
+ul.links.inline a:link{
+	color:#6CADDF;
+}
+ul.links.inline a:visited{
+	color:#0093d0;
+}
+ul.links.inline a:hover{
+	color:#97C5EB;
+}
+ul.links.inline a:active{
+	color:#97C5EB;
+}
 /*
  * Search results are an ordered list so reset the margin
  */
@@ -518,7 +532,7 @@ a {
   text-decoration: none;
 }
 
-a:link,
+a:link{color:#0093d0;}
 a:visited {}
 
 a:active,
@@ -527,6 +541,7 @@ a.active {}
 a:hover,
 a:focus {
   text-decoration: underline;
+  color:#97C5EB;
 }
 
 
@@ -843,6 +858,12 @@ ul.pager {
   clear: both;
   margin: 0;
   text-align: center;
+font-size: 18px;
+font-style: normal;
+font-variant: normal;
+font-weight: 900;
+line-height: 24px;
+text-shadow: 2px 2px 3px #000000;
 }
 
 .item-list ul.pager li {
@@ -867,23 +888,23 @@ ul.pager li.pager-current {
 /*
  * Theme the various states of pager links
  */
-ul.pager li {}
+ul.pager li {color:#6CADDF;}
 
-ul.pager li a {}
+ul.pager li a {color:#6CADDF;}
 
 ul.pager li a:link,
-ul.pager li a:visited {}
+ul.pager li a:visited {color:#6CADDF;}
 
 ul.pager li a:active,
-ul.pager li a.active {}
+ul.pager li a.active {color:#f3c727;}
 
 ul.pager li a:hover,
-ul.pager li a:focus {}
+ul.pager li a:focus {color:#f3c727;}
 
 ul.pager li.pager-item {}
 ul.pager li.first {}
 ul.pager li.last {}
-ul.pager li.pager-current {}
+ul.pager li.pager-current {color:#f3c727;}
 ul.pager li.pager-first {}
 ul.pager li.pager-previous {}
 ul.pager li.pager-next {}
@@ -1237,13 +1258,16 @@ ul.action-links li {}
  * Block title
  */
 .block-title {
+color:#004423;
   margin: 0;
 }
 
 /*
  * Block content wrapper
  */
-.block-content {}
+.block-content {
+	color:#006940;
+}
 
 /*
  * Match item list and block menu margin and padding
@@ -1252,18 +1276,58 @@ ul.action-links li {}
 
 .block-content ul,
 .block-content ol {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 0;
 }
 
 .block-content li {
-  margin: 0;
+  margin: 0 0 0.25em 1.5em;
   padding: 0;
 }
 
-.author-datetime{
-
+.block-content a:link{
+	color:#006940;
 }
+.block-content a:visited{
+	color:#004423;
+}
+.block-content a:hover{
+	color:#54b948;
+}
+.block-content a:active{
+	color:#54b948;
+}
+.block-content .more-link a{
 
+  	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: 20px;
+}
+.block-content .more-link a:link{
+	color:#54b948;
+}
+.block-content .more-link a:visited{}
+.block-content .more-link a:hover{
+	color:#f3c727;
+}
+.block-content .more-link a:active{}
+
+.author-datetime{
+	color:#6CADDF;
+}
+.author-datetime a:link{
+	color:#005295;
+}
+.author-datetime a:hover{
+	color:#97C5EB;
+}
+.author-datetime a:visited{
+	color:#005295;
+}
+.author-datetime a:active{
+	color:#005295;
+}
 /*
  * Block for the latest news items in the first category
  */
@@ -1480,7 +1544,8 @@ ul.action-links li {}
 article, .sidebar .block {
 	background-color:#ffffff;
 	opacity:.9;
-	padding:12px;
+	padding:18px;
+	border-radius:18px;
 	margin:30px 0px;
 }
 
