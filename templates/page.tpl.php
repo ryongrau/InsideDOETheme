@@ -91,9 +91,9 @@
  * @see adaptivetheme_process_page()
  */
 ?>
-<div id="page-wrapper" style="background-image:url(themes/InsideDOETheme/css/backgrounds/16821059326_b9115c3004_k.jpg);">
-	<div id="custom-background"></div>
-  <div id="page" class="container <?php print $classes; ?>">
+<div id="custom-background" style="background-image:url(themes/InsideDOETheme/css/backgrounds/16821059326_b9115c3004_k.jpg);"></div>
+<div id="page-wrapper" >
+    <div id="page" class="container <?php print $classes; ?>">
 
     <!-- !Leaderboard Region -->
     <?php print render($page['leaderboard']); ?>

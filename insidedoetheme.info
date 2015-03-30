@@ -5,7 +5,7 @@
   description = This is the 
   core        = 7.x
   base theme  = adaptivetheme
-  release     = 0.2
+  release     = 1.0
   engine      = phptemplate
   screenshot  = screenshot.png
 
@@ -15,7 +15,6 @@
   ; See each stylesheet for extensive documentation and help.
   stylesheets[screen][] = css/custom.base.css
   stylesheets[screen][] = css/custom.styles.css
-  stylesheets[screen][] = css/random-background.php
   stylesheets[screen][] = css/set-background.css
   
   
