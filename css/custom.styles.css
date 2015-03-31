@@ -51,7 +51,7 @@ body {
  * ========================================================================== */
 
 h1 {
-
+	margin: 0 0 16px 0; 
 	color: #002A61;
 	font-size: 32px;
 	font-style: normal;
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-
+	margin: 0 0 16px 0; 
 	color: #005295;
 	font-size: 24px;
 	font-style: normal;
@@ -820,6 +820,9 @@ ul.menu li.last {}
 
 #breadcrumb {
   margin: 10px 0;
+  color:#ffffff;
+  font-weight:900;
+  text-shadow: 1px 2px 0px #000000;
 }
 
 /* If the label is set to show in theme settings the label class is added */
@@ -851,7 +854,11 @@ ul.menu li.last {}
 
 #breadcrumb li.crumb-last {}
 
-#breadcrumb a {}
+#breadcrumb a { 
+	color:#ffffff;
+	font-weight:900;
+
+}
 
 #breadcrumb a:link,
 #breadcrumb a:visited {}
@@ -878,7 +885,7 @@ font-style: normal;
 font-variant: normal;
 font-weight: 900;
 line-height: 24px;
-text-shadow: 4px 4px 6px #000000;
+text-shadow: 1px 2px 0px #000000;
 }
 
 .item-list ul.pager li {
@@ -1274,7 +1281,7 @@ ul.action-links li {}
  */
 .block-title {
 color:#004423;
-  margin: 0;
+
 }
 
 /*
@@ -1556,7 +1563,9 @@ color:#004423;
 
 .node-poll {}
 
-article, .sidebar .block {
+article, .sidebar .block, .view-id-home .view-content .views-row,
+	.view-display-id-page .view-content .views-row
+{
 	background-color:#ffffff;
 	opacity:.9;
 	padding:18px;
