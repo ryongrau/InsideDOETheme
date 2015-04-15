@@ -739,6 +739,7 @@ ul.sf-menu a:active {
 } 
  
 ul.menu {
+	/*
   padding-left: 15px;
   font-family: 'Segoe UI', Arial, sans-serif;
 	color: #97C5EB;
@@ -747,6 +748,7 @@ ul.menu {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 18px;
+	*/
 }
 
 ul.menu ul {
@@ -758,7 +760,7 @@ ul.menu ul ul {}
 ul.menu ul ul ul {}
 
 ul.menu li {
-  margin: 0;
+  margin: 0 0 0.25em 1.5em;
 }
 
 ul.menu li.collapsed,
