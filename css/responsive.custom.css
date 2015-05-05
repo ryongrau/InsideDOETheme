@@ -60,4 +60,17 @@
 /*
  * Desktops/laptops and up
  */
-/* @media only screen and (min-width: 1025px) {} */
+ @media only screen and (min-width: 1140px) {
+	 .container {
+		max-width:100%;
+	}
+	.sidebar-first .region-sidebar-first, .region-sidebar-first, div.sidebar  {
+	  float: right;
+	  width: 27%;
+	}
+	.sidebar-first .content-inner {
+	  margin-right: 0;
+	  margin-left: 0;
+	}
+ } 
+

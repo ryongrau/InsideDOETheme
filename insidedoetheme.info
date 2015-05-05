@@ -2,7 +2,7 @@
 ;----------// Theme Information
 
   name        = Inside DOE Subtheme
-  description = This is the 
+  description = This Theme was designed for the Inside DOE Blog, as a subtheme of AdaptiveTheme.
   core        = 7.x
   base theme  = adaptivetheme
   release     = 1.0
