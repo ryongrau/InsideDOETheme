@@ -1,11 +1,10 @@
 
 ;----------// Theme Information
 
-  name        = Inside DOE Subtheme
-  description = This Theme was designed for the Inside DOE Blog, as a subtheme of AdaptiveTheme.
-  core        = 7.x
+  name        = Inside DOE - AT Subtheme
+  description = We have copies the AT subtheme to get started - see the <b><a href="http://adaptivethemes.com/documentation/adaptivethemes-documentation" target="_blank" title="Adaptivethemes.com - Rocking the hardest since 2006">documentation</a></b> for guidence or the included README.   core        = 7.x
   base theme  = adaptivetheme
-  release     = 1.0
+  release     = 7.x-3.x
   engine      = phptemplate
   screenshot  = screenshot.png
 
@@ -13,11 +12,9 @@
 ;----------// Stylesheets
 
   ; See each stylesheet for extensive documentation and help.
-  stylesheets[screen][] = css/custom.base.css
-  stylesheets[screen][] = css/custom.styles.css
-  stylesheets[screen][] = css/set-background.css
-  
-  
+  stylesheets[screen][] = css/global.base.css
+  stylesheets[screen][] = css/global.styles.css
+
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
 
@@ -479,3 +476,4 @@ core = "7.x"
 project = "adaptivetheme"
 datestamp = "1395575059"
 
+  stylesheets[screen][] = css/custom.css

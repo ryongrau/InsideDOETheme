@@ -31,18 +31,13 @@
  */
 
 html {
-  /*background: #fff;*/
+  background: #fff;
 }
 
 
 body {
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-  	color: #666666;
-  	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
 }
 
 
@@ -50,25 +45,9 @@ body {
  *   HTML Elements
  * ========================================================================== */
 
-h1 {
-	margin: 0 0 16px 0; 
-	color: #002A61;
-	font-size: 32px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 100;
-	line-height: 32px;
-}
+h1 {}
 
-h2 {
-	margin: 0 0 16px 0; 
-	color: #005295;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 100;
-	line-height: 24px;
-}
+h2 {}
 
 h3 {}
 
@@ -78,15 +57,7 @@ h5 {}
 
 h6 {}
 
-p {
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-  	color: #666666;
-  	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
+p {}
 
 b,
 strong {}
@@ -150,59 +121,24 @@ var {
  *
  * The .container class holds the page width value from theme settings.
  */
-
- /* ***moved to set-background.css.php
-#page-wrapper {
-	z-index:-500;
-	position:absolute;
-	background-image:url('backgrounds/16821059326_b9115c3004_k.jpg');
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	width:100%;
-	height:100%;
-} */
-
-#page {
-	background-image:url("backgrounds/gradient.png");
-	background-size:cover;
-	/*background-repeat:no-repeat;*/
-	background-attachment:fixed;
-}
+#page-wrapper {}
+#page {}
 #page .container {}
 
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-#primary-menu-bar{
-	height:60px;
-	background-image: url("images/menu-bar.png");
-	
-}
-
+#header {}
 
 /*
  * Wraps the sidebars the content column
  */
-#columns {
-	display: block;
-	margin: 0 auto 2em;
-	max-width: 1000px;
-}
+#columns {}
 
 /*
  * Main content column wrapper
  */
-#content-column {
-	display: block;
-	width: 64%;
-	float:left;
-}
+#content-column {}
 
 /*
  * Wraps the main-content-header, the content region and feed-icons. Use this
@@ -308,8 +244,7 @@ var {
  * Logo
  */
 #logo {
-  //padding: 10px 0;
-  float:left;
+  padding: 10px 0;
 }
 
 #logo img {
@@ -344,13 +279,7 @@ var {
  * Site slogan (h2)
  */
 #site-slogan {
-  text-shadow: 4px 4px 6px #000000;	
-  display:block;	
-  margin: 10px;
-  width:66%;
-  color: #ffffff;
-  float:right;
-  
+  margin: 0;
 }
 
 
@@ -368,9 +297,6 @@ var {
  */
 #page-title {
   margin: 0;
-  text-shadow: 4px 4px 6px #000000;	
-  color: #97C5EB;
-
 }
 
 
@@ -401,9 +327,7 @@ var {
 /*
  * Generic styles for the more link
  */
-.more-link {
-
-}
+.more-link {}
 
 /*
  * Generic styles for links. See the ul.links declaration in node and comment
@@ -416,7 +340,6 @@ ul.links {
 
 ul.links.inline {
   display: block;
-  color:#6CADDF;
 }
 
 ul.links li {
@@ -424,18 +347,7 @@ ul.links li {
   list-style: none;
   padding: 0 10px 0 0;
 }
-ul.links.inline a:link{
-	color:#6CADDF;
-}
-ul.links.inline a:visited{
-	color:#0093d0;
-}
-ul.links.inline a:hover{
-	color:#97C5EB;
-}
-ul.links.inline a:active{
-	color:#97C5EB;
-}
+
 /*
  * Search results are an ordered list so reset the margin
  */
@@ -518,10 +430,7 @@ ul.links.inline a:active{
 /*
  * First sidebar
  */
-.region-sidebar-first {
-	  float: right;
-	  width: 27%;
-}
+.region-sidebar-first {}
 
 /*
  * Second sidebar
@@ -547,16 +456,15 @@ a {
   text-decoration: none;
 }
 
-a:link{color:#005295;}
-a:visited {color:#005295;}
+a:link,
+a:visited {}
 
 a:active,
-a.active {color:#002A61;}
+a.active {}
 
 a:hover,
 a:focus {
   text-decoration: underline;
-  color:#002A61;
 }
 
 
@@ -566,7 +474,7 @@ a:focus {
 
 .nav {
   clear: both;
-  //margin: 10px 0;
+  margin: 10px 0;
 }
 
 .nav ul,
@@ -732,23 +640,8 @@ ul.sf-menu a:active {
  *   Menus, usually blocks
  * ========================================================================== */
 
-.primary-menu-wrapper{
-	margin: 0 auto;
-	padding: 20px 0;
-	max-width: 1000px;
-} 
- 
 ul.menu {
-	/*
   padding-left: 15px;
-  font-family: 'Segoe UI', Arial, sans-serif;
-	color: #97C5EB;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 18px;
-	*/
 }
 
 ul.menu ul {
@@ -760,23 +653,20 @@ ul.menu ul ul {}
 ul.menu ul ul ul {}
 
 ul.menu li {
-  margin: 0 0 0.25em 1.5em;
+  margin: 0;
 }
 
 ul.menu li.collapsed,
 ul.menu li.expanded,
 ul.menu li.leaf {}
 
-ul.menu li a {color: #ffffff;}
+ul.menu li a {}
 
 ul.menu li a:link,
 ul.menu li a:visited {}
 
 ul.menu li a:active,
-ul.menu li a.active {
-	color:#f3c727;
-	font-weight:900;
-}
+ul.menu li a.active {}
 
 ul.menu li a:hover,
 ul.menu li a:focus {}
@@ -822,9 +712,6 @@ ul.menu li.last {}
 
 #breadcrumb {
   margin: 10px 0;
-  color:#ffffff;
-  font-weight:900;
-  text-shadow: 1px 2px 0px #000000;
 }
 
 /* If the label is set to show in theme settings the label class is added */
@@ -856,11 +743,7 @@ ul.menu li.last {}
 
 #breadcrumb li.crumb-last {}
 
-#breadcrumb a { 
-	color:#ffffff;
-	font-weight:900;
-
-}
+#breadcrumb a {}
 
 #breadcrumb a:link,
 #breadcrumb a:visited {}
@@ -882,12 +765,6 @@ ul.pager {
   clear: both;
   margin: 0;
   text-align: center;
-font-size: 18px;
-font-style: normal;
-font-variant: normal;
-font-weight: 900;
-line-height: 24px;
-text-shadow: 1px 2px 0px #000000;
 }
 
 .item-list ul.pager li {
@@ -912,23 +789,23 @@ ul.pager li.pager-current {
 /*
  * Theme the various states of pager links
  */
-ul.pager li {color:#6CADDF;}
+ul.pager li {}
 
-ul.pager li a {color:#6CADDF;}
+ul.pager li a {}
 
 ul.pager li a:link,
-ul.pager li a:visited {color:#6CADDF;}
+ul.pager li a:visited {}
 
 ul.pager li a:active,
-ul.pager li a.active {color:#f3c727;}
+ul.pager li a.active {}
 
 ul.pager li a:hover,
-ul.pager li a:focus {color:#f3c727;}
+ul.pager li a:focus {}
 
 ul.pager li.pager-item {}
 ul.pager li.first {}
 ul.pager li.last {}
-ul.pager li.pager-current {color:#f3c727;}
+ul.pager li.pager-current {}
 ul.pager li.pager-first {}
 ul.pager li.pager-previous {}
 ul.pager li.pager-next {}
@@ -1282,16 +1159,13 @@ ul.action-links li {}
  * Block title
  */
 .block-title {
-color:#004423;
-
+  margin: 0;
 }
 
 /*
  * Block content wrapper
  */
-.block-content {
-	color:#006940;
-}
+.block-content {}
 
 /*
  * Match item list and block menu margin and padding
@@ -1300,58 +1174,14 @@ color:#004423;
 
 .block-content ul,
 .block-content ol {
-  padding: 0 0 0 0;
+  padding: 0 0 0 15px;
 }
 
 .block-content li {
-  margin: 0 0 0.25em 1.5em;
+  margin: 0;
   padding: 0;
 }
 
-.block-content a:link{
-	color:#006940;
-}
-.block-content a:visited{
-	color:#004423;
-}
-.block-content a:hover{
-	color:#54b948;
-}
-.block-content a:active{
-	color:#54b948;
-}
-.block-content .more-link a{
-
-  	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 900;
-	line-height: 20px;
-}
-.block-content .more-link a:link{
-	color:#54b948;
-}
-.block-content .more-link a:visited{}
-.block-content .more-link a:hover{
-	color:#f3c727;
-}
-.block-content .more-link a:active{}
-
-.author-datetime{
-	color:#6CADDF;
-}
-.author-datetime a:link{
-	color:#005295;
-}
-.author-datetime a:hover{
-	color:#97C5EB;
-}
-.author-datetime a:visited{
-	color:#005295;
-}
-.author-datetime a:active{
-	color:#005295;
-}
 /*
  * Block for the latest news items in the first category
  */
@@ -1376,8 +1206,6 @@ color:#004423;
  * "Book navigation" block for the current book's table of contents
  */
 #block-book-navigation {}
-
-
 
 /*
  * "Recent comments" block
@@ -1565,16 +1393,6 @@ color:#004423;
 
 .node-poll {}
 
-article, .sidebar .block, .view-id-home .view-content .views-row,
-	.view-display-id-page .view-content .views-row
-{
-	background-color:#ffffff;
-	opacity:.9;
-	padding:18px;
-	border-radius:18px;
-	margin:30px 0px;
-	box-shadow: 4px 4px 6px #666;
-}
 
 /* =============================================================================
  *   Comment Styling - Comments, comment wrapper, comment form
