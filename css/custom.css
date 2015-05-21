@@ -75,7 +75,7 @@ body{
 }
 
 div.item-list-pager, article, section.block, div.block-search, #block-block-3, #block-menu-menu-web-policies, 
-	#block-system-user-menu,  #block-system-navigation,.sidebar .block {
+	#block-system-user-menu,  #block-system-navigation,.sidebar .block, #block-system-main form {
 	background-color:#ffffff;
 	opacity:.85;
 	padding:18px;
