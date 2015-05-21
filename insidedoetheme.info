@@ -1,7 +1,7 @@
 
 ;----------// Theme Information
 
-  name        = Inside DOE - AT Subtheme
+  name        = Inside DOE Theme - Built from AT Subtheme
   description = We have copies the AT subtheme to get started - see the <b><a href="http://adaptivethemes.com/documentation/adaptivethemes-documentation" target="_blank" title="Adaptivethemes.com - Rocking the hardest since 2006">documentation</a></b> for guidence or the included README.   core        = 7.x
   base theme  = adaptivetheme
   release     = 7.x-3.x

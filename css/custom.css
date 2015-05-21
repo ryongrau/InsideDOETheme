@@ -1,18 +1,90 @@
-/* bg image */
+
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  	color: #666666;
+  	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+
+h1 {
+	margin: 0 0 16px 0; 
+	color: #002A61;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 32px;
+}
+
+h2 {
+	margin: 0 0 16px 0; 
+	color: #005295;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 24px;
+}
+
+p {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  	color: #666666;
+  	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+#site-slogan {
+  text-shadow: 4px 4px 6px #000000;	
+  display:block;	
+  margin: 10px;
+  width:66%;
+  color: #ffffff;
+  float:right;
+  
+}
+
+#page-title {
+  margin: 0;
+  text-shadow: 4px 4px 6px #000000;	
+  color: #97C5EB;
+
+}
+
 body{
   background-image: url("/sites/default/files/inside_bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-div.item-list-pager, article, section.block, div.block-search, #block-block-3, #block-menu-menu-web-policies, #block-system-user-menu,  #block-system-navigation{
-  background-color: #FFF;
-  padding: 20px;
-  border-radius: 25px;
-  border: 2px solid #000;
-  padding: 20px;
-  opacity: 0.9; 
+#page-wrapper {
+	background-image:url("backgrounds/gradient.png");
+	background-size:cover;
+	/*background-repeat:no-repeat;*/
+	background-attachment:fixed;
 }
+
+div.item-list-pager, article, section.block, div.block-search, #block-block-3, #block-menu-menu-web-policies, 
+	#block-system-user-menu,  #block-system-navigation,.sidebar .block {
+	background-color:#ffffff;
+	opacity:.85;
+	padding:18px;
+	border-radius:18px;
+	margin:30px 0px;
+	box-shadow: 4px 4px 6px #666;
+}
+
+
 
 #main-content-header{
   color: white; 
@@ -23,3 +95,31 @@ div.item-list-pager, article, section.block, div.block-search, #block-block-3, #
 #breadcrumb a:visited, span.crumb-separator {
     color: white;
 }
+/* =============================================================================
+ *   Superfish
+ * ========================================================================== */
+
+
+ul.sf-menu a {
+  border-left: 0;
+  border-top: 0;
+  padding: 0 10px;
+  text-decoration: none;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+#menu-bar{
+	position:relative;
+	/*left:-1042px;
+	
+	width:300%;*/
+	height:40px;
+	background-image: url("images/menu-bar.png");
+	
+}
+
+#block-superfish-1{
+	/* left:1042px; */
+}
+
+
