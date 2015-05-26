@@ -125,7 +125,9 @@ div.item-list-pager, article, section.block, div.block-search, #block-block-3, #
 .item-list ul li {
   margin: 0;
 }
-
+.block-title{
+  margin: 0 0 16px 0;
+}
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
