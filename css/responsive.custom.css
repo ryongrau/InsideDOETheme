@@ -51,7 +51,17 @@
     width: 100%;
   }
 }
-
+/* MAKING THE MENU-BAR BACKGROUND FIT THE MENUS  */
+@media only screen and (max-width: 585px) {
+	#menu-bar {
+	  height: 80px;
+	}
+}
+@media only screen and (max-width: 350px) {
+	#menu-bar {
+	  height: 120px;
+	}
+}
 /*
  * Tablet sizes and up
  */
@@ -60,4 +70,15 @@
 /*
  * Desktops/laptops and up
  */
-/* @media only screen and (min-width: 1025px) {} */
+@media only screen and (min-width: 1140px) {
+	#page {
+		width:100%;
+		max-width:100%;
+	}
+	#header, #block-superfish-1,#columns,#footer {
+		max-width:1140px;
+		margin:0 auto;
+	}
+
+
+}

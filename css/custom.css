@@ -1,4 +1,9 @@
 
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+
+ 
 body {
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
   	color: #666666;
@@ -8,15 +13,16 @@ body {
 	font-weight: 400;
 	line-height: 20px;
 }
+ 
+body{
+  background-image: url("/sites/default/files/inside_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-
-/* =============================================================================
- *   HTML Elements
- * ========================================================================== */
-
-h1 {
+h1, h1 a {
 	margin: 0 0 16px 0; 
-	color: #002A61;
+	color: #54b948;
 	font-size: 32px;
 	font-style: normal;
 	font-variant: normal;
@@ -24,9 +30,9 @@ h1 {
 	line-height: 32px;
 }
 
-h2 {
+h2, h2 a {
 	margin: 0 0 16px 0; 
-	color: #005295;
+	color: #54b948;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -42,6 +48,15 @@ p {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+}
+
+p a, li a {
+	color:#0093d0;
+}
+
+p a:hover, li a:hover {
+	color:#97C5EB;
+	text-decoration:underline;
 }
 
 #site-slogan {
@@ -61,30 +76,35 @@ p {
 
 }
 
-body{
-  background-image: url("/sites/default/files/inside_bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 
 #page-wrapper {
 	background-image:url("backgrounds/gradient.png");
 	background-size:cover;
 	/*background-repeat:no-repeat;*/
 	background-attachment:fixed;
+	min-height: 1100px;
 }
 
 div.item-list-pager, article, section.block, div.block-search, #block-block-3, #block-menu-menu-web-policies, 
 	#block-system-user-menu,  #block-system-navigation,.sidebar .block, #block-system-main form {
 	background-color:#ffffff;
-	opacity:.85;
+	opacity:.80;
 	padding:18px;
 	border-radius:18px;
 	margin:30px 0px;
-	box-shadow: 4px 4px 6px #666;
+	box-shadow: 4px 4px 6px #000;
 }
 
-
+.more-link a{
+	  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  	color: #54b948;
+  	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: 20px;
+}
 
 #main-content-header{
   color: white; 
@@ -93,13 +113,25 @@ div.item-list-pager, article, section.block, div.block-search, #block-block-3, #
 
 #breadcrumb a:link,
 #breadcrumb a:visited, span.crumb-separator {
-    color: white;
+	color: white;
 }
+
+#footer{
+	color:#ffffff;
+	text-shadow: 1px 2px 2px #000000,0px 0px 3px #000000;
+	
+}
+
+.item-list ul li {
+  margin: 0;
+}
+
 /* =============================================================================
  *   Superfish
  * ========================================================================== */
 
 
+/*
 ul.sf-menu a {
   border-left: 0;
   border-top: 0;
@@ -108,18 +140,27 @@ ul.sf-menu a {
   height: 2.5em;
   line-height: 2.5em;
 }
+*/
+.sf-menu.sf-style-space a, .sf-menu.sf-style-space li, .sf-menu.sf-style-space li li, .sf-menu.sf-style-space li li li, .sf-menu.sf-style-space.sf-navbar {
+  background: none;
+  height:40px;
+  border-top:none;
+  border-bottom:none;
+}
+
 #menu-bar{
 	position:relative;
-	/*left:-1042px;
-	
-	width:300%;*/
 	height:40px;
-	background-image: url("images/menu-bar.png");
+	background-image: url("images/menu-bar-blue.png");
+	background-size: 100% 100%;
 	
 }
 
-#block-superfish-1{
-	/* left:1042px; */
+#block-superfish-1,#superfish-1{
+	color: none;
+	height:100%;
+	
 }
+#superfish-1{}
 
 
