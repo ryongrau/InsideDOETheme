@@ -63,13 +63,20 @@ p a:hover, li a:hover {
 	text-decoration:underline;
 }
 
+#logo{
+	position:relative;
+	float:left;
+}
+
 #site-slogan {
+	position:relative;
   text-shadow: 4px 4px 6px #000000;	
   display:block;	
-  margin: 10px;
+  margin: 20px 0;
   width:66%;
   color: #ffffff;
   float:right;
+
   
 }
 
